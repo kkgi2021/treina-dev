@@ -106,6 +106,6 @@ alunos=['debora','natalia','rodrigo','junior']
 puts("quem é o primeiro aluno da lista? #{alunos.first()}")#retorna o valor da primeira posição
 puts("qual é o ultimo aluno da lista? #{alunos.last()}")#retorna o valor da ultima posição
 puts("quantos alunos ha na lista #{alunos.length()}")#retorna o tamanho do array
-alunos['André','Sophia','Laura']
-notas[5,6,8]
-puts(" #{alunos[0]} tirou a nota #{notas[0]} , #{alunos[1]} tirou a nota #{notas[1]} , #{alunos[2]} tirou a nota #{notas[2]}")#exibe nota e nomes dos alunos
+alunos = ['André','Sophia','Laura']
+notas = [5,6,8]
+puts(" #{alunos[0]} tirou a nota #{notas[0]}, #{alunos[1]} tirou a nota #{notas[1]}, #{alunos[2]} tirou a nota, #{notas[2]}")
