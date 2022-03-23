@@ -109,3 +109,7 @@ puts("quantos alunos ha na lista #{alunos.length()}")#retorna o tamanho do array
 alunos = ['André','Sophia','Laura']
 notas = [5,6,8]
 puts(" #{alunos[0]} tirou a nota #{notas[0]}, #{alunos[1]} tirou a nota #{notas[1]}, #{alunos[2]} tirou a nota, #{notas[2]}")
+notas[1]=9
+alunos << 'Paulo'
+notas << 7.5
+puts("#{alunos[0]} obteve a nota, #{notas[0]} #{alunos[1]} obteve a nota #{notas[1]} #{alunos[2]} obteve a nota #{notas[2]} #{alunos[3]} obteve a nota #{notas[3]}")
